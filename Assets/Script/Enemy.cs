@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
     public Vector3 TargetPosition { get; private set; }
 
     public int CurrentPathIndex { get; private set; }
+    public Vector2 respawnWaitPosition;
 
  
 
@@ -130,6 +131,7 @@ public class Enemy : MonoBehaviour
             gameObject.SetActive (false);
 
             AudioPlayer.Instance.PlaySFX ("enemy-die");
+            transform.position = respawnWaitPosition;
 
         }
 

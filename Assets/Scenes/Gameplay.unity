@@ -2047,15 +2047,15 @@ MonoBehaviour:
   _enemyPaths:
   - {fileID: 981297647}
   - {fileID: 218886672}
+  - {fileID: 530186042}
+  - {fileID: 354832609}
   - {fileID: 2137264566}
   - {fileID: 1410734089}
   - {fileID: 109745282}
-  - {fileID: 383093443}
-  - {fileID: 1672370958}
-  - {fileID: 530186042}
-  - {fileID: 354832609}
   - {fileID: 292532751}
   - {fileID: 1887392621}
+  - {fileID: 383093443}
+  - {fileID: 1672370958}
   _spawnDelay: 5
 --- !u!1 &1537906642
 GameObject:
